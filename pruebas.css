@@ -1,0 +1,58 @@
+html, #cuerpo {
+    	height: 100%;
+		margin: 0px;
+		display: flex;
+}
+
+#contenedorMain{
+	height: 30%;
+	width:40%;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+	
+    margin: auto;
+	background: rgba(0, 0, 0, 0.5);	
+	border-radius: 25px;
+	border:20px solid #1C1C1C;
+	border-image: url(borde.png) 40 round;	
+}
+
+
+
+#bjugar, #binstrucciones, #bpuntuaciones, #bcreditos{
+	display:block;
+    margin: auto;
+    width: 250px;
+    height: 80px;
+    position: relative;
+   
+}
+
+#contenedorTitulo{
+	display:block;
+	height: 100%;
+	margin: auto;
+	
+}
+
+#contBotones{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	height: 100%;
+	margin: auto;
+	
+}
+
+#titulo{
+	display:block;
+    margin: auto;
+    max-width: 100%;
+	height: auto;
+    position: relative;
+	top: 10%;
+}
